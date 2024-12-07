@@ -1,0 +1,21 @@
+# Core Framework
+Flask==2.3.3
+flask-cors==3.0.10
+
+# Hugging Face Transformers and Dependencies
+transformers==4.33.3
+torch==2.0.1
+torchvision==0.15.2
+torchaudio==2.0.1
+sentencepiece==0.1.99
+datasets==2.21.0
+accelerate==0.21.0
+
+# Optional: For TensorFlow Support (Remove if not using TensorFlow)
+tensorflow==2.14.0
+
+# Deployment
+gunicorn==21.2.0
+
+# HTTP Requests (Optional, if needed)
+requests==2.31.0
